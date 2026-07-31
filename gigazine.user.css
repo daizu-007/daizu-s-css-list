@@ -1,0 +1,124 @@
+@-moz-document domain("gigazine.net") {
+/* ドネーション関連を非表示 */
+#donate_large {
+  display: none !important;
+}
+
+#donate_footer {
+  display: none !important;
+}
+
+#sponsors-comment-wrapper {
+  display: none !important;
+}
+
+div.donate_title {
+  display: none !important;
+}
+
+/* ナビリストを非表示 */
+dl.list-2.navi-list-2col {
+  display: none !important;
+}
+
+
+/* 色を調整する */
+/* ライトモード */
+
+h1.title {
+  background-color: #e0e0e0 !important;
+}
+
+#latest > h3 {
+  background-color: #e0e0e0 !important;
+  color: #333333 !important;
+}
+
+#header {
+  background-color: #ffffff !important;
+}
+
+#sub {
+  background-color: #ffffff !important;
+}
+
+li.rl-list-item {
+  background-color: #ffffff !important;
+}
+
+p.np-bg {
+  background-color: #ffffff !important;
+}
+
+html body footer {
+  background-color: #ffffff !important;
+}
+
+div h2 a {
+  background-color: #ffffff !important;
+}
+
+div.date {
+  background-color: #ffffff !important;
+}
+
+div dl dt {
+  background-color: #e0e0e0 !important;
+  color: #333333 !important;
+}
+
+aside div h3 {
+  background-color: #e0e0e0 !important;
+  color: #333333 !important;
+}
+
+/* ダークモード */
+@media (prefers-color-scheme: dark) {
+    h1.title {
+      background-color: #4d4d4d !important;
+    }
+    
+    #latest > h3 {
+      background-color: #4d4d4d !important;
+      color: #FFFFFF !important;
+    }
+
+    #header {
+      background-color: #000 !important;
+    }
+
+    #sub {
+      background-color: #000 !important;
+    }
+
+    li.rl-list-item {
+      background-color: #000 !important;
+    }
+
+    p.np-bg {
+      background-color: #000 !important;
+    }
+
+    html body footer {
+      background-color: #000 !important;
+    }
+
+    div h2 a {
+      background-color: #000 !important;
+    }
+
+    div.date {
+      background-color: #000 !important;
+    }
+
+    div dl dt {
+      background-color: #4d4d4d !important;
+      color: #FFFFFF !important;
+    }
+
+    aside div h3 {
+      background-color: #4d4d4d !important;
+      color: #FFFFFF !important;
+    }
+}
+}
