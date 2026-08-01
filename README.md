@@ -1,10 +1,18 @@
 # daizu-s-css-list
 
-daizu-007が管理するUserCSSのリストです。
+daizu-007が管理するUserCSSのリストです。Stylusでの利用を想定しています。
 
 ## 使い方
 
-この拡張機能はStylusでの利用を想定しています。
+1. Stylusをインストールする
+2. 下の「フィルターリスト」から使いたいスタイルを選ぶ
+3. 「インストール」リンクを開く
+4. Stylusが自動で認識し、内容の確認画面とともにインストール用のボタンが表示されるので、クリックする
+
+### Stylusのインストール
+Chromium系ブラウザ: [Stylus - Chrome ウェブストア](https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
+FireFox系ブラウザ: [Stylus - Add-ons for Firefox](https://addons.mozilla.org/ja/firefox/addon/styl-us/)
+手動インストール: [Stylus - GitHub](https://github.com/openstyles/stylus)
 
 ## フィルターリスト
 
