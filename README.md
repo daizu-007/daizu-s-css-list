@@ -20,7 +20,7 @@ daizu-007が管理するUserCSSのリストです。Stylusでの利用を想定�
 
 #### Gigazine Simplifier
 
-Gigazineをシンプルに表示するためのUserCSSです。
+Gigazineをシンプルに表示するためのUserCSSです。寄付関連の要素を非表示にしたり、派手な色を抑えたりします。
 
 [インストール](https://raw.githubusercontent.com/daizu-007/daizu-s-css-list/refs/heads/main/stylus/gigazine.user.css)
 ```
