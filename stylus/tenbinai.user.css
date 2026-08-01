@@ -1,0 +1,62 @@
+/* ==UserStyle==
+@name Tenbin.ai Simplifier
+@namespace io.github.daizu-007
+@version 1.0.2
+@description ニュースメディア「Tenbin.ai」をシンプルにします。
+@author daizu-007
+@license Apache-2.0
+@homepageURL https://github.com/daizu-007/daizu-s-css-list
+@supportURL https://github.com/daizu-007/daizu-s-css-list/issues
+@updateURL https://raw.githubusercontent.com/daizu-007/daizu-s-css-list/refs/heads/main/stylus/tenbinai.user.css
+==/UserStyle== */
+
+@-moz-document regexp("^https?://(www\\.)?tenbin\\.ai(/.*)?$") {
+    /* --- ヘッダー・フッター削除 --- */
+    div.gmoGroupHeader,
+    div.gmoGroupFooter,
+    footer.p-Footer {
+    display: none !important;
+    }
+
+    /* --- 基本リセット --- */
+    html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100% !important;
+    overflow: hidden !important;
+    }
+
+    /* --- メインコンテナ --- */
+    #__next {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    overflow: auto !important;
+    background-color: #353545 !important;
+    }
+
+    /* --- レイアウト調整 --- */
+    #__next > main > div {
+    display: flex !important;
+    min-height: 100dvh !important;
+    }
+
+    #__next > main > div > div.p-WorkspaceConsoleMain {
+    flex: 1 !important;
+    min-height: 100dvh !important;
+    }
+
+    /* ダークモード */
+    @media (prefers-color-scheme: dark) {
+        .f-ManagementFrameMain.jsx-7fb1c554da0ec8ad {
+            background-color: #2E3542 !important
+        }
+    }
+
+    /* ビジネスプランお試しボタン削除 */
+    [class*="ButtonBrand"][class*="sizeSmall"] {
+        display: none !important;
+    }
+}
