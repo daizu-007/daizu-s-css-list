@@ -1,0 +1,32 @@
+/* ==UserStyle==
+@name Tenbin.ai Simplifier for Mobile
+@namespace io.github.daizu-007
+@version 1.0.0
+@description AIチャットアプリ「Tenbin.ai」のモバイル版をシンプルにします。
+@author daizu-007
+@license Apache-2.0
+@homepageURL https://github.com/daizu-007/daizu-s-css-list
+@supportURL https://github.com/daizu-007/daizu-s-css-list/issues
+@updateURL https://raw.githubusercontent.com/daizu-007/daizu-s-css-list/refs/heads/main/stylus/tenbinai_mobile.user.css
+==/UserStyle== */
+
+@-moz-document regexp("^https?://(www\\.)?tenbin\\.ai(/.*)?$") {
+    /* --- ヘッダー・フッター削除 --- */
+    div.gmoGroupHeader,
+    div.gmoGroupFooter,
+    footer.p-Footer {
+    display: none !important;
+    }
+
+    /* ダークモード */
+    @media (prefers-color-scheme: dark) {
+        .f-ManagementFrameMain.jsx-7fb1c554da0ec8ad {
+            background-color: #2E3542 !important
+        }
+    }
+
+    /* ビジネスプランお試しボタン削除 */
+    [class*="ButtonBrand"][class*="sizeSmall"] {
+        display: none !important;
+    }
+}
